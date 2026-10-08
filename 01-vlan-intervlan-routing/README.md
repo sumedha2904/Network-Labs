@@ -26,7 +26,7 @@ Split one switch into two VLANs (Sales and HR) and let them communicate through 
 - **R1:** created subinterfaces Gi0/0.10 and Gi0/0.20 with dot1Q encapsulation. Each one is the default gateway for its VLAN. The physical interface Gi0/0 has no IP address.
 
 Configs: [SW1-config.txt](SW1-config.txt) | [R1-config.txt](R1-config.txt)
-Packet Tracer file: [lab01-vlan-intervlan.pkt](lab01-vlan-intervlan.pkt)
+Packet Tracer file: [lab01-vlan-intervlan-rotuing.pkt](lab01-vlan-intervlan-routing.pkt)
 
 ## Verification
 | Test | Result | Evidence |
